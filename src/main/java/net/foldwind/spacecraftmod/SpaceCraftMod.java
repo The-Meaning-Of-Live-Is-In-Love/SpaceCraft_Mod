@@ -43,12 +43,12 @@ public class SpaceCraftMod
     {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS)
         {
-            event.accept(ModItems.RAW_TITAN);
+            event.accept(ModItems.RAW_TITANIUM);
         }
         if(event.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS)
         {
-            event.accept(ModBlocks.TITAN_ORE);
-            event.accept(ModBlocks.DEEPSLATE_TITAN_ORE);
+            event.accept(ModBlocks.TITANIUM_ORE);
+            event.accept(ModBlocks.DEEPSLATE_TITANIUM_ORE);
         }
     }
     @SubscribeEvent

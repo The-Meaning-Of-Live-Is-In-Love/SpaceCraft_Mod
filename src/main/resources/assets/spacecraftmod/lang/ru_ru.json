@@ -1,5 +1,5 @@
 {
-  "item.spacecraftmod.raw_titan": "Рудной титан",
-  "block.spacecraftmod.titan_ore": "Титановая руда",
-  "block.spacecraftmod.deepslate_titan_ore": "Глубинносланцевая титановая руда"
+  "item.spacecraftmod.raw_titanium": "Рудной титан",
+  "block.spacecraftmod.titanium_ore": "Титановая руда",
+  "block.spacecraftmod.deepslate_titanium_ore": "Глубинносланцевая титановая руда"
 }

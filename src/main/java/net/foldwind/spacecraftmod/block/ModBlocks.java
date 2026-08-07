@@ -18,8 +18,8 @@ import java.util.function.Supplier;
 
 public class ModBlocks {
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, SpaceCraftMod.MOD_ID);
-    public static final RegistryObject<Block> TITAN_ORE = registerBlock("titan_ore", () -> new DropExperienceBlock(UniformInt.of(5, 10), BlockBehaviour.Properties.of().strength(5f).requiresCorrectToolForDrops()));
-    public static final RegistryObject<Block> DEEPSLATE_TITAN_ORE = registerBlock("deepslate_titan_ore", () -> new DropExperienceBlock(UniformInt.of(7, 15), BlockBehaviour.Properties.of().strength(7f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE)));
+    public static final RegistryObject<Block> TITANIUM_ORE = registerBlock("titanium_ore", () -> new DropExperienceBlock(UniformInt.of(5, 10), BlockBehaviour.Properties.of().strength(5f).requiresCorrectToolForDrops()));
+    public static final RegistryObject<Block> DEEPSLATE_TITANIUM_ORE = registerBlock("deepslate_titanium_ore", () -> new DropExperienceBlock(UniformInt.of(10,15), BlockBehaviour.Properties.of().strength(7f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE)));
     private static <T extends  Block> RegistryObject<T> registerBlock(String name, Supplier<T> block)
     {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
