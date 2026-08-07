@@ -7,10 +7,12 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 
-public class ModItems {
+public class ModItems
+{
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, SpaceCraftMod.MOD_ID);
     public static final RegistryObject<Item> RAW_TITAN = ITEMS.register("raw_titan", () -> new Item(new Item.Properties()));
-    public static void register(IEventBus eventBus){
+    public static void register(IEventBus eventBus)
+    {
         ITEMS.register(eventBus);
     }
 }
