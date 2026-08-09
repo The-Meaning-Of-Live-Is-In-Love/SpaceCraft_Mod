@@ -4,5 +4,6 @@
   "block.spacecraftmod.deepslate_titanium_ore": "Глубинносланцевая титановая руда",
   "item.spacecraftmod.raw_uranium": "Рудной уран",
   "block.spacecraftmod.uranium_ore": "Урановая руда",
-  "block.spacecraftmod.deepslate_uranium_ore": "Глубинносланцевая урановая руда"
+  "block.spacecraftmod.deepslate_uranium_ore": "Глубинносланцевая урановая руда",
+  "creativetab.spacecraftmod.ores": "Руды из мода"
 }

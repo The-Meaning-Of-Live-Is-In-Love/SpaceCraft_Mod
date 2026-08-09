@@ -2,6 +2,7 @@ package net.foldwind.spacecraftmod;
 
 import com.mojang.logging.LogUtils;
 import net.foldwind.spacecraftmod.block.ModBlocks;
+import net.foldwind.spacecraftmod.item.ModCreativeModeTabs;
 import net.foldwind.spacecraftmod.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
@@ -28,6 +29,7 @@ public class SpaceCraftMod
     {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
         modEventBus.addListener(this::commonSetup);
+        ModCreativeModeTabs.register(modEventBus);
         MinecraftForge.EVENT_BUS.register(this);
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
@@ -41,15 +43,6 @@ public class SpaceCraftMod
 
     private void addCreative(BuildCreativeModeTabContentsEvent event)
     {
-        if(event.getTabKey() == CreativeModeTabs.INGREDIENTS)
-        {
-            event.accept(ModItems.RAW_TITANIUM);
-        }
-        if(event.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS)
-        {
-            event.accept(ModBlocks.TITANIUM_ORE);
-            event.accept(ModBlocks.DEEPSLATE_TITANIUM_ORE);
-        }
     }
     @SubscribeEvent
     public void onServerStarting(ServerStartingEvent event)
