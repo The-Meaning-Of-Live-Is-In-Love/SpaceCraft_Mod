@@ -26,20 +26,11 @@
                   }
                 }
               ],
-              "name": "spacecraftmod:deepslate_titanium_ore"
+              "name": "spacecraftmod:uranium_ore"
             },
             {
               "type": "minecraft:item",
               "functions": [
-                {
-                  "add": false,
-                  "count": {
-                    "type": "minecraft:uniform",
-                    "max": 5.0,
-                    "min": 2.0
-                  },
-                  "function": "minecraft:set_count"
-                },
                 {
                   "enchantment": "minecraft:fortune",
                   "formula": "minecraft:ore_drops",
@@ -49,7 +40,7 @@
                   "function": "minecraft:explosion_decay"
                 }
               ],
-              "name": "spacecraftmod:raw_titanium"
+              "name": "spacecraftmod:raw_uranium"
             }
           ]
         }
@@ -57,5 +48,5 @@
       "rolls": 1.0
     }
   ],
-  "random_sequence": "spacecraftmod:blocks/deepslate_titanium_ore"
+  "random_sequence": "spacecraftmod:blocks/uranium_ore"
 }

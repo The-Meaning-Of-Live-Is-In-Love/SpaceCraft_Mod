@@ -17,6 +17,8 @@ public class ModBlockStateProvider extends BlockStateProvider {
     protected void registerStatesAndModels() {
         blockWithItem(ModBlocks.TITANIUM_ORE);
         blockWithItem(ModBlocks.DEEPSLATE_TITANIUM_ORE);
+        blockWithItem(ModBlocks.URANIUM_ORE);
+        blockWithItem(ModBlocks.DEEPSLATE_URANIUM_ORE);
     }
     private void blockWithItem(RegistryObject<Block> blockRegistryObject){
         simpleBlockWithItem(blockRegistryObject.get(), cubeAll(blockRegistryObject.get()));

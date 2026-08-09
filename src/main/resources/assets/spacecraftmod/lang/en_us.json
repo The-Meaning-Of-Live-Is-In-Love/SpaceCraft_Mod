@@ -1,5 +1,8 @@
 {
   "item.spacecraftmod.raw_titanium": "Raw titanium",
   "block.spacecraftmod.titanium_ore": "Titanium ore",
-  "block.spacecraftmod.deepslate_titanium_ore": "Deepslate titanium ore"
+  "block.spacecraftmod.deepslate_titanium_ore": "Deepslate titanium ore",
+  "item.spacecraftmod.raw_uranium": "Raw uranium",
+  "block.spacecraftmod.uranium_ore": "Uranium ore",
+  "block.spacecraftmod.deepslate_uranium_ore": "Deepslate uranium ore"
 }
