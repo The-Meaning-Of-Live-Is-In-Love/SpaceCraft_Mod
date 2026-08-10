@@ -16,5 +16,6 @@ public class ModItemModelProvider extends ItemModelProvider {
         basicItem(ModItems.RAW_TITANIUM.get());
         basicItem(ModItems.RAW_URANIUM.get());
         basicItem(ModItems.TITANIUM_INGOT.get());
+        basicItem(ModItems.IRON_STICK.get());
     }
 }

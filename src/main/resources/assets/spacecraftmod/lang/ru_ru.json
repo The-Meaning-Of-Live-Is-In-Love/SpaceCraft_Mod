@@ -7,5 +7,6 @@
   "block.spacecraftmod.deepslate_uranium_ore": "Глубинносланцевая урановая руда",
   "item.spacecraftmod.titanium_ingot": "Титановый слиток",
   "creativetab.spacecraftmod.ores": "Руды",
-  "creativetab.spacecraftmod.resources": "Ресурсы"
+  "creativetab.spacecraftmod.resources": "Ресурсы",
+  "item.spacecraftmod.iron_stick": "Железная палка"
 }
