@@ -5,5 +5,7 @@
   "item.spacecraftmod.raw_uranium": "Raw uranium",
   "block.spacecraftmod.uranium_ore": "Uranium ore",
   "block.spacecraftmod.deepslate_uranium_ore": "Deepslate uranium ore",
-  "creativetab.spacecraftmod.ores": "Mod ores"
+  "item.spacecraftmod.titanium_ingot": "Titanium ingot",
+  "creativetab.spacecraftmod.ores": "Ores",
+  "creativetab.spacecraftmod.resources": "Resources"
 }

@@ -20,6 +20,9 @@ public class ModCreativeModeTabs {
         output.accept(ModItems.RAW_TITANIUM.get());
         output.accept(ModItems.RAW_URANIUM.get());
     }).build());
+    public static final RegistryObject<CreativeModeTab> RESOURCES_TAB = CREATIVE_MODE_TABS.register("resources_tab", () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.TITANIUM_INGOT.get())).title(Component.translatable("creativetab.spacecraftmod.resources")).displayItems((parameters, output) -> {
+        output.accept(ModItems.TITANIUM_INGOT.get());
+    }).build());
     public static void register(IEventBus eventBus){
         CREATIVE_MODE_TABS.register(eventBus);
     }
