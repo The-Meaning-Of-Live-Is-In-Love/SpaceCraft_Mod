@@ -24,6 +24,15 @@ public class ModCreativeModeTabs {
         output.accept(ModItems.TITANIUM_INGOT.get());
         output.accept(ModItems.IRON_STICK.get());
     }).build());
+    public static final RegistryObject<CreativeModeTab> TOOLS_TAB = CREATIVE_MODE_TABS.register("tools_tab", () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.TITANIUM_PICKAXE.get())).title(Component.translatable("creativetab.spacecraftmod.tools")).displayItems((parameters, output) -> {
+        output.accept(ModItems.TITANIUM_PICKAXE.get());
+        output.accept(ModItems.TITANIUM_AXE.get());
+        output.accept(ModItems.TITANIUM_SHOVEL.get());
+        output.accept(ModItems.TITANIUM_HOE.get());
+    }).build());
+    public static final RegistryObject<CreativeModeTab> SWORDS_TAB = CREATIVE_MODE_TABS.register("swords_tab", () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.TITANIUM_SWORD.get())).title(Component.translatable("creativetab.spacecraftmod.swords")).displayItems((parameters, output) -> {
+        output.accept(ModItems.TITANIUM_SWORD.get());
+    }).build());
     public static void register(IEventBus eventBus){
         CREATIVE_MODE_TABS.register(eventBus);
     }

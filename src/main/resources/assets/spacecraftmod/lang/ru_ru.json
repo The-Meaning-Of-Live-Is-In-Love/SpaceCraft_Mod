@@ -8,5 +8,12 @@
   "item.spacecraftmod.titanium_ingot": "Титановый слиток",
   "creativetab.spacecraftmod.ores": "Руды",
   "creativetab.spacecraftmod.resources": "Ресурсы",
-  "item.spacecraftmod.iron_stick": "Железная палка"
+  "item.spacecraftmod.iron_stick": "Железная палка",
+  "creativetab.spacecraftmod.tools": "Инструменты",
+  "creativetab.spacecraftmod.swords": "Мечи",
+  "item.spacecraftmod.titanium_sword": "Титановый меч",
+  "item.spacecraftmod.titanium_pickaxe": "Титановая кирка",
+  "item.spacecraftmod.titanium_axe": "Титановый топор",
+  "item.spacecraftmod.titanium_shovel": "Титановая лопата",
+  "item.spacecraftmod.titanium_hoe": "Титановая мотыга"
 }

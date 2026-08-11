@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/handheld",
   "textures": {
-    "layer0": "spacecraftmod:item/iron_stick"
+    "layer0": "spacecraftmod:item/titanium_shovel"
   }
 }

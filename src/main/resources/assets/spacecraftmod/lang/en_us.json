@@ -8,5 +8,12 @@
   "item.spacecraftmod.titanium_ingot": "Titanium ingot",
   "creativetab.spacecraftmod.ores": "Ores",
   "creativetab.spacecraftmod.resources": "Resources",
-  "item.spacecraftmod.iron_stick": "Iron stick"
+  "item.spacecraftmod.iron_stick": "Iron stick",
+  "creativetab.spacecraftmod.tools": "Tools",
+  "creativetab.spacecraftmod.swords": "Swords",
+  "item.spacecraftmod.titanium_sword": "Titanium sword",
+  "item.spacecraftmod.titanium_pickaxe": "Titanium pickaxe",
+  "item.spacecraftmod.titanium_axe": "Titanium axe",
+  "item.spacecraftmod.titanium_shovel": "Titanium shovel",
+  "item.spacecraftmod.titanium_hoe": "Titanium hoe"
 }

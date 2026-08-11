@@ -2,6 +2,7 @@ package net.foldwind.spacecraftmod.datagen;
 
 import net.foldwind.spacecraftmod.SpaceCraftMod;
 import net.foldwind.spacecraftmod.block.ModBlocks;
+import net.foldwind.spacecraftmod.util.ModTags;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.tags.BlockTags;
@@ -23,9 +24,35 @@ public class ModBlockTagProvider extends BlockTagsProvider {
                 .add(ModBlocks.DEEPSLATE_TITANIUM_ORE.get())
                 .add(ModBlocks.URANIUM_ORE.get())
                 .add(ModBlocks.DEEPSLATE_URANIUM_ORE.get());
-        tag(BlockTags.NEEDS_DIAMOND_TOOL)
+        tag(ModTags.Blocks.NEEDS_TITANIUM_TOOL)
+                .add(ModBlocks.URANIUM_ORE.get())
+                .add(ModBlocks.DEEPSLATE_URANIUM_ORE.get());
+        tag(BlockTags.INCORRECT_FOR_WOODEN_TOOL)
                 .add(ModBlocks.TITANIUM_ORE.get())
                 .add(ModBlocks.DEEPSLATE_TITANIUM_ORE.get())
+                .add(ModBlocks.URANIUM_ORE.get())
+                .add(ModBlocks.DEEPSLATE_URANIUM_ORE.get());
+        tag(BlockTags.INCORRECT_FOR_STONE_TOOL)
+                .add(ModBlocks.TITANIUM_ORE.get())
+                .add(ModBlocks.DEEPSLATE_TITANIUM_ORE.get())
+                .add(ModBlocks.URANIUM_ORE.get())
+                .add(ModBlocks.DEEPSLATE_URANIUM_ORE.get());
+        tag(BlockTags.INCORRECT_FOR_GOLD_TOOL)
+                .add(ModBlocks.TITANIUM_ORE.get())
+                .add(ModBlocks.DEEPSLATE_TITANIUM_ORE.get())
+                .add(ModBlocks.URANIUM_ORE.get())
+                .add(ModBlocks.DEEPSLATE_URANIUM_ORE.get());
+        tag(BlockTags.INCORRECT_FOR_IRON_TOOL)
+                .add(ModBlocks.TITANIUM_ORE.get())
+                .add(ModBlocks.DEEPSLATE_TITANIUM_ORE.get())
+                .add(ModBlocks.URANIUM_ORE.get())
+                .add(ModBlocks.DEEPSLATE_URANIUM_ORE.get());
+        tag(BlockTags.INCORRECT_FOR_DIAMOND_TOOL)
+                .add(ModBlocks.TITANIUM_ORE.get())
+                .add(ModBlocks.DEEPSLATE_TITANIUM_ORE.get())
+                .add(ModBlocks.URANIUM_ORE.get())
+                .add(ModBlocks.DEEPSLATE_URANIUM_ORE.get());
+        tag(BlockTags.INCORRECT_FOR_NETHERITE_TOOL)
                 .add(ModBlocks.URANIUM_ORE.get())
                 .add(ModBlocks.DEEPSLATE_URANIUM_ORE.get());
     }
