@@ -31,10 +31,14 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
     protected void generate() {
         dropSelf(ModBlocks.TITANIUM_ORE.get());
         dropSelf(ModBlocks.DEEPSLATE_TITANIUM_ORE.get());
+        dropSelf(ModBlocks.LEAD_ORE.get());
+        dropSelf(ModBlocks.DEEPSLATE_LEAD_ORE.get());
         dropSelf(ModBlocks.URANIUM_ORE.get());
         dropSelf(ModBlocks.DEEPSLATE_URANIUM_ORE.get());
         this.add(ModBlocks.TITANIUM_ORE.get(), block -> createOreDrop(ModBlocks.TITANIUM_ORE.get(), ModItems.RAW_TITANIUM.get()));
         this.add(ModBlocks.DEEPSLATE_TITANIUM_ORE.get(), block -> createMultipleOreDrops(ModBlocks.DEEPSLATE_TITANIUM_ORE.get(), ModItems.RAW_TITANIUM.get(), 2, 5));
+        this.add(ModBlocks.LEAD_ORE.get(), block -> createOreDrop(ModBlocks.LEAD_ORE.get(), ModItems.RAW_LEAD.get()));
+        this.add(ModBlocks.DEEPSLATE_LEAD_ORE.get(), block -> createMultipleOreDrops(ModBlocks.DEEPSLATE_LEAD_ORE.get(), ModItems.RAW_LEAD.get(), 2, 5));
         this.add(ModBlocks.URANIUM_ORE.get(), block -> createOreDrop(ModBlocks.URANIUM_ORE.get(), ModItems.RAW_URANIUM.get()));
         this.add(ModBlocks.DEEPSLATE_URANIUM_ORE.get(), block -> createMultipleOreDrops(ModBlocks.DEEPSLATE_URANIUM_ORE.get(), ModItems.RAW_URANIUM.get(), 2, 5));
     }

@@ -22,6 +22,8 @@ public class ModBlockTagProvider extends BlockTagsProvider {
         tag(BlockTags.MINEABLE_WITH_PICKAXE)
                 .add(ModBlocks.TITANIUM_ORE.get())
                 .add(ModBlocks.DEEPSLATE_TITANIUM_ORE.get())
+                .add(ModBlocks.LEAD_ORE.get())
+                .add(ModBlocks.DEEPSLATE_LEAD_ORE.get())
                 .add(ModBlocks.URANIUM_ORE.get())
                 .add(ModBlocks.DEEPSLATE_URANIUM_ORE.get());
         tag(ModTags.Blocks.NEEDS_TITANIUM_TOOL)
@@ -30,6 +32,8 @@ public class ModBlockTagProvider extends BlockTagsProvider {
         tag(BlockTags.INCORRECT_FOR_WOODEN_TOOL)
                 .add(ModBlocks.TITANIUM_ORE.get())
                 .add(ModBlocks.DEEPSLATE_TITANIUM_ORE.get())
+                .add(ModBlocks.LEAD_ORE.get())
+                .add(ModBlocks.DEEPSLATE_LEAD_ORE.get())
                 .add(ModBlocks.URANIUM_ORE.get())
                 .add(ModBlocks.DEEPSLATE_URANIUM_ORE.get());
         tag(BlockTags.INCORRECT_FOR_STONE_TOOL)
