@@ -1,10 +1,12 @@
 {
   "values": [
-    "spacecraftmod:titanium_ore",
-    "spacecraftmod:deepslate_titanium_ore",
     "spacecraftmod:lead_ore",
-    "spacecraftmod:deepslate_lead_ore",
+    "spacecraftmod:sulphur_ore",
+    "spacecraftmod:titanium_ore",
     "spacecraftmod:uranium_ore",
+    "spacecraftmod:deepslate_lead_ore",
+    "spacecraftmod:deepslate_sulphur_ore",
+    "spacecraftmod:deepslate_titanium_ore",
     "spacecraftmod:deepslate_uranium_ore"
   ]
 }
