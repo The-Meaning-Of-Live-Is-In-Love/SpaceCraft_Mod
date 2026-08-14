@@ -20,43 +20,51 @@ public class ModBlockTagProvider extends BlockTagsProvider {
     @Override
     protected void addTags(HolderLookup.Provider pProvider) {
         tag(BlockTags.MINEABLE_WITH_PICKAXE)
-                .add(ModBlocks.TITANIUM_ORE.get())
-                .add(ModBlocks.DEEPSLATE_TITANIUM_ORE.get())
                 .add(ModBlocks.LEAD_ORE.get())
+                .add(ModBlocks.SULPHUR_ORE.get())
+                .add(ModBlocks.TITANIUM_ORE.get())
+                .add(ModBlocks.URANIUM_ORE.get())
                 .add(ModBlocks.DEEPSLATE_LEAD_ORE.get())
-                .add(ModBlocks.URANIUM_ORE.get())
-                .add(ModBlocks.DEEPSLATE_URANIUM_ORE.get());
-        tag(ModTags.Blocks.NEEDS_TITANIUM_TOOL)
-                .add(ModBlocks.URANIUM_ORE.get())
+                .add(ModBlocks.DEEPSLATE_SULPHUR_ORE.get())
+                .add(ModBlocks.DEEPSLATE_TITANIUM_ORE.get())
                 .add(ModBlocks.DEEPSLATE_URANIUM_ORE.get());
         tag(BlockTags.INCORRECT_FOR_WOODEN_TOOL)
-                .add(ModBlocks.TITANIUM_ORE.get())
-                .add(ModBlocks.DEEPSLATE_TITANIUM_ORE.get())
                 .add(ModBlocks.LEAD_ORE.get())
-                .add(ModBlocks.DEEPSLATE_LEAD_ORE.get())
+                .add(ModBlocks.SULPHUR_ORE.get())
+                .add(ModBlocks.TITANIUM_ORE.get())
                 .add(ModBlocks.URANIUM_ORE.get())
+                .add(ModBlocks.DEEPSLATE_LEAD_ORE.get())
+                .add(ModBlocks.DEEPSLATE_SULPHUR_ORE.get())
+                .add(ModBlocks.DEEPSLATE_TITANIUM_ORE.get())
                 .add(ModBlocks.DEEPSLATE_URANIUM_ORE.get());
         tag(BlockTags.INCORRECT_FOR_STONE_TOOL)
+                .add(ModBlocks.SULPHUR_ORE.get())
                 .add(ModBlocks.TITANIUM_ORE.get())
-                .add(ModBlocks.DEEPSLATE_TITANIUM_ORE.get())
                 .add(ModBlocks.URANIUM_ORE.get())
+                .add(ModBlocks.DEEPSLATE_SULPHUR_ORE.get())
+                .add(ModBlocks.DEEPSLATE_TITANIUM_ORE.get())
                 .add(ModBlocks.DEEPSLATE_URANIUM_ORE.get());
         tag(BlockTags.INCORRECT_FOR_GOLD_TOOL)
+                .add(ModBlocks.SULPHUR_ORE.get())
                 .add(ModBlocks.TITANIUM_ORE.get())
-                .add(ModBlocks.DEEPSLATE_TITANIUM_ORE.get())
                 .add(ModBlocks.URANIUM_ORE.get())
+                .add(ModBlocks.DEEPSLATE_SULPHUR_ORE.get())
+                .add(ModBlocks.DEEPSLATE_TITANIUM_ORE.get())
                 .add(ModBlocks.DEEPSLATE_URANIUM_ORE.get());
         tag(BlockTags.INCORRECT_FOR_IRON_TOOL)
                 .add(ModBlocks.TITANIUM_ORE.get())
-                .add(ModBlocks.DEEPSLATE_TITANIUM_ORE.get())
                 .add(ModBlocks.URANIUM_ORE.get())
+                .add(ModBlocks.DEEPSLATE_TITANIUM_ORE.get())
                 .add(ModBlocks.DEEPSLATE_URANIUM_ORE.get());
         tag(BlockTags.INCORRECT_FOR_DIAMOND_TOOL)
                 .add(ModBlocks.TITANIUM_ORE.get())
-                .add(ModBlocks.DEEPSLATE_TITANIUM_ORE.get())
                 .add(ModBlocks.URANIUM_ORE.get())
+                .add(ModBlocks.DEEPSLATE_TITANIUM_ORE.get())
                 .add(ModBlocks.DEEPSLATE_URANIUM_ORE.get());
         tag(BlockTags.INCORRECT_FOR_NETHERITE_TOOL)
+                .add(ModBlocks.URANIUM_ORE.get())
+                .add(ModBlocks.DEEPSLATE_URANIUM_ORE.get());
+        tag(ModTags.Blocks.NEEDS_TITANIUM_TOOL)
                 .add(ModBlocks.URANIUM_ORE.get())
                 .add(ModBlocks.DEEPSLATE_URANIUM_ORE.get());
     }

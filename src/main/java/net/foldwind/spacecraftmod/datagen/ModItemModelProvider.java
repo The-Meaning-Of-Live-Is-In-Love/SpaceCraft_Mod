@@ -41,8 +41,9 @@ public class ModItemModelProvider extends ItemModelProvider {
 
     @Override
     protected void registerModels() {
-        basicItem(ModItems.RAW_TITANIUM.get());
         basicItem(ModItems.RAW_LEAD.get());
+        basicItem(ModItems.RAW_SULPHUR.get());
+        basicItem(ModItems.RAW_TITANIUM.get());
         basicItem(ModItems.RAW_URANIUM.get());
         basicItem(ModItems.TITANIUM_INGOT.get());
         handheldItem(ModItems.IRON_STICK);
