@@ -4,6 +4,7 @@ import com.mojang.logging.LogUtils;
 import net.foldwind.spacecraftmod.block.ModBlocks;
 import net.foldwind.spacecraftmod.item.ModCreativeModeTabs;
 import net.foldwind.spacecraftmod.item.ModItems;
+import net.foldwind.spacecraftmod.sound.ModSounds;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -33,6 +34,7 @@ public class SpaceCraftMod
         MinecraftForge.EVENT_BUS.register(this);
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+        ModSounds.register(modEventBus);
         modEventBus.addListener(this::addCreative);
         ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, Config.SPEC);
     }

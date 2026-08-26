@@ -1,0 +1,8 @@
+{
+  "comparator_output": 15,
+  "description": {
+    "translate": "item.spacecraftmod.music_disc_shooting_stars_instrumental.desc"
+  },
+  "length_in_seconds": 232.0,
+  "sound_event": "spacecraftmod:shooting_stars_instrumental"
+}

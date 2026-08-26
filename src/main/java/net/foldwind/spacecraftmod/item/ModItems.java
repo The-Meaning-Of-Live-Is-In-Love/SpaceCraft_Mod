@@ -1,6 +1,7 @@
 package net.foldwind.spacecraftmod.item;
 
 import net.foldwind.spacecraftmod.SpaceCraftMod;
+import net.foldwind.spacecraftmod.sound.ModSounds;
 import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -25,7 +26,10 @@ public class ModItems
     public static final RegistryObject<Item> TITANIUM_CHESTPLATE = ITEMS.register("titanium_chestplate", () -> new ArmorItem(ModArmorMaterials.TITANIUM_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE, new Item.Properties().durability(ArmorItem.Type.CHESTPLATE.getDurability(50))));
     public static final RegistryObject<Item> TITANIUM_LEGGINGS = ITEMS.register("titanium_leggings", () -> new ArmorItem(ModArmorMaterials.TITANIUM_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS, new Item.Properties().durability(ArmorItem.Type.LEGGINGS.getDurability(50))));
     public static final RegistryObject<Item> TITANIUM_BOOTS = ITEMS.register("titanium_boots", () -> new ArmorItem(ModArmorMaterials.TITANIUM_ARMOR_MATERIAL, ArmorItem.Type.BOOTS, new Item.Properties().durability(ArmorItem.Type.BOOTS.getDurability(50))));
-
+    public static final RegistryObject<Item> MUSIC_DISC_INTERSTELLAR = ITEMS.register("music_disc_interstellar", () -> new Item(new Item.Properties().jukeboxPlayable(ModSounds.INTERSTELLAR_KEY).stacksTo(1)));
+    public static final RegistryObject<Item> MUSIC_DISC_INTERSTELLAR_PIANO = ITEMS.register("music_disc_interstellar_piano", () -> new Item(new Item.Properties().jukeboxPlayable(ModSounds.INTERSTELLAR_PIANO_KEY).stacksTo(1)));
+    public static final RegistryObject<Item> MUSIC_DISC_LANDS_UNKNOWN = ITEMS.register("music_disc_lands_unknown", () -> new Item(new Item.Properties().jukeboxPlayable(ModSounds.LANDS_UNKNOWN_KEY).stacksTo(1)));
+    public static final RegistryObject<Item> MUSIC_DISC_SHOOTING_STARS_INSTRUMENTAL = ITEMS.register("music_disc_shooting_stars_instrumental", () -> new Item(new Item.Properties().jukeboxPlayable(ModSounds.SHOOTING_STARS_INSTRUMENTAL_KEY).stacksTo(1)));
     public static void register(IEventBus eventBus)
     {
         ITEMS.register(eventBus);

@@ -22,9 +22,18 @@
   "item.spacecraftmod.titanium_chestplate": "Титановый нагрудник",
   "item.spacecraftmod.titanium_leggings": "Титановые поножи",
   "item.spacecraftmod.titanium_boots": "Титановые ботинки",
+  "item.spacecraftmod.music_disc_interstellar": "Пластинка",
+  "item.spacecraftmod.music_disc_interstellar.desc": "Hans Zimmer — Interstellar",
+  "item.spacecraftmod.music_disc_interstellar_piano": "Пластинка",
+  "item.spacecraftmod.music_disc_interstellar_piano.desc": "Hans Zimmer — Interstellar piano",
+  "item.spacecraftmod.music_disc_lands_unknown": "Пластинка",
+  "item.spacecraftmod.music_disc_lands_unknown.desc": "Futuremono — Lands Unknown",
+  "item.spacecraftmod.music_disc_shooting_stars_instrumental": "Пластинка",
+  "item.spacecraftmod.music_disc_shooting_stars_instrumental.desc": "Bag Raiders — Shooting Stars instrumental",
   "creativetab.spacecraftmod.ores": "Руды",
   "creativetab.spacecraftmod.resources": "Ресурсы",
   "creativetab.spacecraftmod.tools": "Инструменты",
   "creativetab.spacecraftmod.swords": "Мечи",
-  "creativetab.spacecraftmod.armor": "Броня"
+  "creativetab.spacecraftmod.armor": "Броня",
+  "creativetab.spacecraftmod.music_discs": "Пластинки"
 }

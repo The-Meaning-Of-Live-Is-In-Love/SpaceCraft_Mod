@@ -22,9 +22,18 @@
   "item.spacecraftmod.titanium_chestplate": "Titanium chestplate",
   "item.spacecraftmod.titanium_leggings": "Titanium leggings",
   "item.spacecraftmod.titanium_boots": "Titanium boots",
+  "item.spacecraftmod.music_disc_interstellar": "Music disc",
+  "item.spacecraftmod.music_disc_interstellar.desc": "Hans Zimmer — Interstellar",
+  "item.spacecraftmod.music_disc_interstellar_piano": "Music disc",
+  "item.spacecraftmod.music_disc_interstellar_piano.desc": "Hans Zimmer — Interstellar piano",
+  "item.spacecraftmod.music_disc_lands_unknown": "Music disc",
+  "item.spacecraftmod.music_disc_lands_unknown.desc": "Futuremono — Lands Unknown",
+  "item.spacecraftmod.music_disc_shooting_stars": "Music disc",
+  "item.spacecraftmod.music_disc_shooting_stars.desc": "Bag Raiders — Shooting Stars",
   "creativetab.spacecraftmod.ores": "Ores",
   "creativetab.spacecraftmod.resources": "Resources",
   "creativetab.spacecraftmod.tools": "Tools",
   "creativetab.spacecraftmod.swords": "Swords",
-  "creativetab.spacecraftmod.armor": "Armor"
+  "creativetab.spacecraftmod.armor": "Armor",
+  "creativetab.spacecraftmod.music_discs": "Music discs"
 }

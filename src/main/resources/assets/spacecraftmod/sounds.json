@@ -1,0 +1,34 @@
+{
+  "interstellar": {
+    "sounds": [
+      {
+        "name": "spacecraftmod:interstellar",
+        "stream": true
+      }
+    ]
+  },
+  "interstellar_piano": {
+    "sounds": [
+      {
+        "name": "spacecraftmod:interstellar_piano",
+        "stream": true
+      }
+    ]
+  },
+  "lands_unknown": {
+    "sounds": [
+      {
+        "name": "spacecraftmod:lands_unknown",
+        "stream": true
+      }
+    ]
+  },
+  "shooting_stars_instrumental": {
+    "sounds": [
+      {
+        "name": "spacecraftmod:shooting_stars_instrumental",
+        "stream": true
+      }
+    ]
+  }
+}

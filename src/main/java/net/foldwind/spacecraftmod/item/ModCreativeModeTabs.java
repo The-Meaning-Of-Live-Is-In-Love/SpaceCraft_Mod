@@ -45,6 +45,12 @@ public class ModCreativeModeTabs {
         output.accept(ModItems.TITANIUM_LEGGINGS.get());
         output.accept(ModItems.TITANIUM_BOOTS.get());
     }).build());
+    public static final RegistryObject<CreativeModeTab> MUSIC_DISCS_TAB = CREATIVE_MODE_TABS.register("music_discs_tab", () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.MUSIC_DISC_INTERSTELLAR.get())).title(Component.translatable("creativetab.spacecraftmod.music_discs")).displayItems((parameters, output) -> {
+        output.accept(ModItems.MUSIC_DISC_INTERSTELLAR.get());
+        output.accept(ModItems.MUSIC_DISC_INTERSTELLAR_PIANO.get());
+        output.accept(ModItems.MUSIC_DISC_LANDS_UNKNOWN.get());
+        output.accept(ModItems.MUSIC_DISC_SHOOTING_STARS_INSTRUMENTAL.get());
+    }).build());
     public static void register(IEventBus eventBus){
         CREATIVE_MODE_TABS.register(eventBus);
     }

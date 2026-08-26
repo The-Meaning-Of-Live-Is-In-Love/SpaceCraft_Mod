@@ -1,0 +1,8 @@
+{
+  "comparator_output": 15,
+  "description": {
+    "translate": "item.spacecraftmod.music_disc_lands_unknown.desc"
+  },
+  "length_in_seconds": 154.0,
+  "sound_event": "spacecraftmod:lands_unknown"
+}

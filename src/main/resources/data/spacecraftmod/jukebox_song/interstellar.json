@@ -1,0 +1,8 @@
+{
+  "comparator_output": 15,
+  "description": {
+    "translate": "item.spacecraftmod.music_disc_interstellar.desc"
+  },
+  "length_in_seconds": 242.0,
+  "sound_event": "spacecraftmod:interstellar"
+}

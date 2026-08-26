@@ -46,6 +46,10 @@ public class ModItemModelProvider extends ItemModelProvider {
         basicItem(ModItems.RAW_TITANIUM.get());
         basicItem(ModItems.RAW_URANIUM.get());
         basicItem(ModItems.TITANIUM_INGOT.get());
+        basicItem(ModItems.MUSIC_DISC_INTERSTELLAR.get());
+        basicItem(ModItems.MUSIC_DISC_INTERSTELLAR_PIANO.get());
+        basicItem(ModItems.MUSIC_DISC_LANDS_UNKNOWN.get());
+        basicItem(ModItems.MUSIC_DISC_SHOOTING_STARS_INSTRUMENTAL.get());
         handheldItem(ModItems.IRON_STICK);
         handheldItem(ModItems.TITANIUM_SWORD);
         handheldItem(ModItems.TITANIUM_PICKAXE);
